@@ -24,7 +24,7 @@
 __author__ = 'pti@google.com (Prashant Tiwari)'
 
 try:
-    import json
+    import simplejson
 except ImportError:
     import simplejson as json
 import os

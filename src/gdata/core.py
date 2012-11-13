@@ -40,7 +40,7 @@ except ImportError:
     from django.utils import simplejson 
   except ImportError:
     # Should work for Python2.6 and higher.
-    import json as simplejson
+    import simplejson as simplejson
 
 
 def _convert_to_jsonc(x):
